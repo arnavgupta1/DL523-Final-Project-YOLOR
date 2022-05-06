@@ -1,6 +1,13 @@
 # DL523-Final-Project-YOLOR
 Our task will be to implement the implicit knowledge capabilities from the paper “You Only Learn One Representation: Unified Network for Multiple Tasks” on the Faster R-CNN MobileNetV3-Large FPN network. We would be creating a baseline basic object detection and image classification network, then we will apply this paper which includes an implicit neural network and compare the performance between the two.
 
+# Files
+
+dataloader.py - defines the dataloaders to load in the miniCOCO dataset
+implicit_layers.py - defines the wrappers to add implicit knowledge after any given layer
+models.py - defines the model, which may be the baseline or with some or all implicit knowledge added
+train_script.py - trains and evaluates the model, saving the results in the results directory
+
 # Usage
 
 1. Clone the repository
