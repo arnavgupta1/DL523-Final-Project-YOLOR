@@ -3,10 +3,10 @@ Our task will be to implement the implicit knowledge capabilities from the paper
 
 # Files
 
-dataloader.py - defines the dataloaders to load in the miniCOCO dataset  
-implicit_layers.py - defines the wrappers to add implicit knowledge after any given layer  
-models.py - defines the model, which may be the baseline or with some or all implicit knowledge added  
-train_script.py - trains and evaluates the model, saving the results in the results directory
+`dataloader.py` - defines the dataloaders to load in the miniCOCO dataset  
+`implicit_layers.py` - defines the wrappers to add implicit knowledge after any given layer  
+`models.py` - defines the model, which may be the baseline or with some or all implicit knowledge added  
+`train_script.py` - trains and evaluates the model, saving the results in the results directory
 
 # Usage
 
