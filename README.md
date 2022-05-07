@@ -3,10 +3,11 @@ Our task will be to implement the implicit knowledge capabilities from the paper
 
 # Files
 
-`dataloader.py` - defines the dataloaders to load in the miniCOCO dataset  
+`dataloader.py` - defines the dataloaders to load in the miniCOCO dataset. This was edited from an existing file  
 `implicit_layers.py` - defines the wrappers to add implicit knowledge after any given layer  
 `models.py` - defines the model, which may be the baseline or with some or all implicit knowledge added  
-`train_script.py` - trains and evaluates the model, saving the results in the results directory
+`train_script.py` - trains and evaluates the model, saving the results in the results directory  
+All files in the rcnn_utils file were modified from existing files
 
 # Usage
 
